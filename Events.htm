@@ -1,0 +1,336 @@
+<html>
+
+
+
+<head>
+
+
+
+	<title>Share-IITR</title>
+
+
+
+	<!--Don't forget about favicon-->
+
+
+
+	<link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+
+
+
+	<link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
+
+
+
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+
+
+	<link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
+
+
+
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
+
+
+	<link rel="stylesheet" type="text/css" href="css/knowledge.css" />
+
+
+
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+
+
+	<script type="text/javascript" src="jquery/jquery-1.9.1.min.js"></script>
+
+
+
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+
+	
+
+	<link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+	<div id="fb-root"></div>
+
+
+
+	<script>
+
+
+
+		(function(d, s, id) {
+
+
+
+  		var js, fjs = d.getElementsByTagName(s)[0];
+
+
+
+  		if (d.getElementById(id)) return;
+
+
+
+  		js = d.createElement(s); js.id = id;
+
+
+
+  		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=541817105866663";
+
+
+
+  		fjs.parentNode.insertBefore(js, fjs);
+
+
+
+		}(document, 'script', 'facebook-jssdk'));
+
+
+
+	</script>
+
+
+
+<script>
+
+
+
+/*$(document).ready(function()
+
+
+
+{
+
+
+
+	var t = true;
+
+
+
+});*/
+
+
+
+</script>
+
+
+
+
+
+
+
+	<div id="logo">
+
+
+
+		<img src="img/shareiitr2.png" style="height:90px;"/>
+
+
+
+		<img src="img/logohd.png" style="height:90px;float:right;"/>
+
+
+
+	</div>
+
+
+
+	<nav class="cl-effect-10" style="background-color:rgb(134,223,45);margin-bottom:2px;height:35px;">
+
+
+
+		<a href="Share-home.htm" data-hover="Home" ><span>Home</span></a>
+
+
+
+		<a href="About_us.htm"  data-hover="About Us"><span>About Us</span></a>
+
+
+
+		<a href="alumni.htm"  data-hover="Alumni" ><span>Alumni</span></a>
+
+
+
+		<a href="Team.htm"  data-hover="Team"><span>Team</span></a>
+
+
+
+		<a href="updates.htm"  data-hover="Knowledge"><span>Knowledge</span></a>
+
+
+
+        <a href="updates.htm"  data-hover="Announcements"><span>Announcements</span></a>
+
+		<div class="fb-like" data-href="https://www.facebook.com/shareiitr" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style="float:right;margin-top:7px;margin-right:6px;"></div>
+
+
+
+	</nav>
+
+
+
+	<div id="wrap2">
+
+
+
+		<div id="contwrap">
+
+
+
+		<div class="knldghd"><span>Events</span></div>
+
+
+
+			 <div class="article" data-memb="1" data-color="false">
+
+
+
+				<h3>ShARE World Seminar</h3>
+
+
+
+			    <div class="cont 1">
+
+			    <a id="glry" href="img/sws.jpg"><img src="img/sws.jpg" alt="" title="Click to Zoom"/></a>
+
+			   	<br/>
+
+			    	<p>
+
+			    		Organized every year, the ShARE World Seminar is the best opportunity for the members to finally meet, participate in excellent talks and workshops, and to share knowledge and fun. Learn more about this year's seminar in Mumbai inwww.share-share.org/WS2013, gold sponsored by Valeo and Wind World
+
+			    	</p>
+
+			    </div>
+
+
+
+			 </div>
+
+
+
+
+
+
+
+			 <div class="article" data-memb="2" data-color="false">
+
+
+
+				<h3> Lecture </h3>
+
+
+
+			    <div class="cont 2">
+
+
+
+			    <!--<img src="img/auroraposter.jpg"/>-->
+
+			    <a id="glry" href="img/jngl.jpg"><img src="img/jngl.jpg" alt="" title="Click to Zoom"/></a>
+
+			   	<br/>
+
+			   	<p>
+
+			    	ShARE IITR would like to thank its faculty advisor, Dr. Joginder K. Nayak, for his lecture on Start-ups: Innovation and Marketing, on 14th October, that set the audience thinking on how each one of them has the power to innovate, and how they could harness it to realise their true potential and contribute to the development of society
+
+				</p>
+
+			    </div>
+
+
+
+			 </div>
+
+
+
+	</div>
+
+</div>
+
+
+
+<script>
+
+$(document).ready(function() {
+
+
+
+	/* This is basic - uses default settings */
+
+	
+
+	$("a#glry").fancybox({overlayShow: true});
+
+
+
+	
+
+});
+
+
+
+$(".article").click(function(){
+
+
+
+		var link = $(this).attr("data-memb");
+
+
+
+		$("."+link).slideToggle('500');
+
+
+
+	});
+
+
+
+/*$(".article").hover(function(){
+
+	var tt = $(this).attr("data-color");
+
+	if(tt==false)
+
+	{
+
+		$(this).css({"backgroundColor": "#fff"})
+
+	}
+
+},function(){
+
+	var tt = $(this).attr("data-color");
+
+	if(tt == false)
+
+	{
+
+		$(this).css({"backgroundColor": "#eee"})
+
+	}
+
+});
+
+*/
+
+
+
+
+
+
+
+</script>
+

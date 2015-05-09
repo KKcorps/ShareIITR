@@ -1,0 +1,119 @@
+@font-face
+
+{
+
+	font-family: MankSans;
+
+	src: url(../fonts/MankSans.ttf);
+
+}
+
+@font-face
+
+{
+
+	font-family: LittleDays;
+
+	src: url(../fonts/Littledays.ttf);
+
+}
+
+#wrap2
+
+{
+	background: url(../img/bg.jpg);
+
+ 	min-height: 80%;
+
+	height: auto;
+
+	padding-top: 10px;
+
+	padding-bottom: 20px;
+
+}
+
+#contwrap
+
+{
+
+	border-radius: 10px;
+
+	width: 60%;
+
+	float: left;
+
+	margin-left: 20%;
+
+	text-align: center;
+
+}
+
+#contwrap h3
+
+{
+
+	color: rgb(134,223,45);
+
+	height: 40px;
+
+	font-size: 24px;
+
+	cursor:pointer;
+
+}
+
+.cont
+
+{
+
+	position:relative;
+
+	display: none;
+
+	font-family: 'Forum',cursive;
+
+	font-weight: bold;
+
+	color: rgb(142,143,45);
+
+	font-size: larger;
+
+}
+
+.article
+
+{
+
+	background: #fff;
+
+	margin-top: 20px;
+
+	margin-bottom: 20px;
+
+	border-radius: 6px;
+
+	height: auto;
+
+}
+
+
+.cont img
+{
+	width: 60%;
+}
+
+.knldghd
+
+{
+
+	text-align: center;
+
+	font-family: 'Poiret One',cursive;
+
+	font-size: 115px;
+
+	color: #fff;
+
+}
+

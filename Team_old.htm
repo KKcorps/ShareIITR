@@ -1,0 +1,424 @@
+<html>
+
+<head>
+
+	<title>Share-IITR</title>
+
+	<!--Don't forget about favicon-->
+
+	<link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+
+	<link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
+
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="jquery/jquery-1.9.1.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/Team.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/buttons.css" />
+	
+	<script src="jquery/modernizr.custom.js"></script>
+
+	<!--<link rel="stylesheet" href="jquery/jquery.mobile-1.4.0.min.css">	
+
+	<script src="jquery/jquery.mobile-1.4.0.min.js"></script>-->
+
+</head>
+
+
+
+<body style="background:url(img/aboutus.png);background-position-x:18%;background-position-y:8%;">
+
+	<div id="fb-root"></div>
+
+	<script>
+
+		(function(d, s, id) {
+
+  		var js, fjs = d.getElementsByTagName(s)[0];
+
+  		if (d.getElementById(id)) return;
+
+  		js = d.createElement(s); js.id = id;
+
+  		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=541817105866663";
+
+  		fjs.parentNode.insertBefore(js, fjs);
+
+		}(document, 'script', 'facebook-jssdk'));
+
+	</script>
+
+<script>
+
+/*$(document).ready(function()
+
+{
+
+	var t = true;
+
+});*/
+
+</script>
+
+
+
+	<div id="logo">
+
+		<img src="img/shareiitr2.png" style="height:90px;"/>
+
+		<a href="http://www.share-share.org/" target="_blank"><img src="img/logohd.png" style="height:90px;float:right;"/></a>
+
+		<a href="https://www.facebook.com/shareiitr" TARGET="_blank" style="float:right;margin-top:16px;margin-right:13px;"><img src="img/fb.png" title="link" alt="link" width="57px" border="0"/></a>
+
+		<a href="https://twitter.com/shareiitr" TARGET="_blank" style="float:right;margin-top:16px;margin-right:0px;"><img src="img/tw.png" title="link" alt="link" width="59px" border="0"/></a>
+
+	</div>
+
+	<nav class="cl-effect-10" style="background-color:rgb(134,223,45);margin-bottom:2px;height:35px;">
+
+		<a href="Share-home.htm" data-hover="Home" ><span>Home</span></a>
+
+		<a href="About_us.htm"  data-hover="About Us"><span>About Us</span></a>
+
+		<a href="About_us.htm"  data-hover="Gallery"><span>Gallery</span></a>
+
+		<a href="alumni.htm"  data-hover="Alumni" ><span>Alumni</span></a>
+
+		<a href="\"  data-hover="Knowledge"><span>Knowledge</span></a>
+
+		<a href="Knowledge.htm"  data-hover="Announcements"><span>Announcements</span></a>
+
+		<div class="fb-like" data-href="https://www.facebook.com/shareiitr" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style="float:right;margin-top:7px;margin-right:6px;"></div>
+
+	</nav>
+
+<div class="head">
+
+	<h1>Meet The Team</h1>
+
+</div>
+
+<button class="btn btn-2 btn-2c en" style="margin-left:7%;">Energy</button>
+
+<button class="btn btn-2 btn-2c ict" >ICT & Innovation</button>
+
+<button class="btn btn-2 btn-2c all">All</button>
+
+<button class="btn btn-2 btn-2c bs">Business Strategy</button>
+
+<button class="btn btn-2 btn-2c in">Industry</button>
+
+<script>
+
+$(".en").click(function(){
+
+	$(".memb").animate({opacity:'1.0'});
+
+	$(".memb:not(.EN):not(.FA)").animate({opacity:'0.3'});
+
+});
+
+$(".ict").click(function(){
+
+	$(".memb").animate({opacity:'1.0'});
+
+	$(".memb:not(.ICT):not(.FA)").animate({opacity:'0.3'});
+
+});
+
+$(".bs").click(function(){
+
+	$(".memb").animate({opacity:'1.0'});
+
+	$(".memb:not(.BS):not(.FA)").animate({opacity:'0.3'});
+
+});
+
+$(".in").click(function(){
+
+	$(".memb").animate({opacity:'1.0'});
+
+	$(".memb:not(.IN):not(.FA)").animate({opacity:'0.3'});
+
+});
+
+$(".all").click(function(){
+
+	$(".memb").animate({opacity:'1.0'});
+
+});
+
+</script>
+
+<!--<nav class="cl-effect-20">
+
+		<div class="advisor memb FA" >
+
+			<img src="team/Jogendra_Nayak_1.jpg" style="height:160px;width:148px;margin-left:21%;"/><br/>
+
+			<a href="advisor.htm" ><span data-hover="Faculty Advisor" style="background: rgb(134,223,45);box-shadow: inset 0 3px rgb(134,223,45);width:250px;">Jogendra Kumar Nayak</span></a>
+
+		</div>
+
+</nav>-->
+
+	<nav class="cl-effect-20">
+
+		<div class="pres memb ICT cs-style-2" >
+			<figure>
+			<img src="team/aditya.jpg" style="height:160px;width:148px;margin-left:21%;"/>
+			<figcaption>
+						<h3>Knowledge President</h3>
+						<!--<span>Share IITR</span>-->
+					</figcaption>
+			</figure>
+
+			<a href="alumni.htm" ><span data-hover="ECW 4th Year" style="background: #ff9900;box-shadow: inset 0 3px #ff9900;width:250px;">Aditya Jain</span></a>
+
+		</div>
+
+		<div class="pres memb BS cs-style-2" >
+			<figure>
+				<img src="team/shubhechyya.jpg" style="height:160px;width:148px;margin-left:21%;"/>
+					<figcaption>
+						<h3 style="font-size:15px;">President</h3>
+						<!--<span>Share IITR</span>-->
+					</figcaption>
+			</figure>
+			<a href="alumni.htm" ><span data-hover="MSM 3rd Year" style="background: #ff9900;box-shadow: inset 0 3px #ff9900;width:250px;">Shubhechyya Ghosal</span></a>
+
+		</div>
+
+		<div class="pres memb IN cs-style-2" >
+			<figure>
+			<img src="team/peeyush.jpg" style="height:160px;width:148px;margin-left:21%;"/>
+			<figcaption>
+						<h3>Knowldege President</h3>
+						<!--<span>Share IITR</span>-->
+					</figcaption>
+			</figure>
+			<a href="alumni.htm" ><span data-hover="Civil 4th Year" style="background: #ff9900;box-shadow: inset 0 3px #ff9900;width:250px;">Peeyush Jain</span></a>
+
+		</div>
+
+	 </nav>
+
+	<nav class="cl-effect-20" style="margin-left:5%">
+
+		<div class="memb EN cs-style-2" style="margin-right:60px;">
+			<figure>
+			<img src="team/shivank.jpg" />
+			<figcaption>
+						<h3>Network Manager</h3>
+						<!--<span>Share IITR</span>-->
+					</figcaption>
+			</figure>
+			<a href="alumni.htm" ><span data-hover="Civil 3rd Year" style="background-color:#2ac56c;box-shadow: inset 0 3px #2ac56c;width:201px;">Shivank Sharma</span></a>
+
+		</div>
+
+		<div class="memb BS cs-style-2" style="margin-right:60px;">
+			<figure>
+			<img src=""/>
+			<figcaption>
+						<h3>Network Manager</h3>
+						<!--<span>Share IITR</span>-->
+					</figcaption>
+			</figure>
+			<a href="alumni.htm" ><span data-hover="ECE 2nd Year" style="background-color:#2ac56c;box-shadow: inset 0 3px #2ac56c;width:201px;">Surya Vamshi G</span></a>
+
+		</div>
+
+		<div class="memb ICT cs-style-2" style="margin-right:60px;">
+			<figure>
+			<img src="team/megha2.jpg"/>
+			<figcaption>
+						<h3>Network Manager</h3>
+						<!--<span>Share IITR</span>-->
+					</figcaption>
+			</figure>
+			<a href="" ><span data-hover="ECE 2nd Year" style="background-color:#2ac56c;box-shadow: inset 0 3px #2ac56c;width:208px;">Megha Vijaywargia</span></a>
+
+		</div>
+
+		<div class="memb IN cs-style-2" style="margin-right:60px;">
+			<figure>
+			<img src="team/shakendra.jpg"/>
+			<figcaption>
+						<h3>Network Manager</h3>
+						<!--<span>Share IITR</span>-->
+					</figcaption>
+			</figure>
+
+			<a href="" ><span data-hover="Civil 2nd Year" style="background-color:#2ac56c;box-shadow: inset 0 3px #2ac56c;width:201px;">Shakendra Jain</span></a>
+
+		</div>
+
+	</nav>
+
+	<nav class="cl-effect-20" style="margin-left:17%;">
+
+		<div class="memb ICT" style="margin-right:89px;">
+
+			<img src="team/nayak.jpg"/><br/>
+
+			<a href="" ><span data-hover="Civil 2nd Year" style="background-color:#2ac56c;box-shadow: inset 0 3px #2ac56c;width:201px;">Abhishek Nayak</span></a>
+
+		</div>
+
+		<div class="memb ICT" style="margin-right:89px;">
+
+			<img src="team/nakshatra.jpg"/><br/>
+
+			<a href="" ><span data-hover="Civil 2nd Year" style="background-color:#2ac56c;box-shadow: inset 0 3px #2ac56c;width:201px;">Nakshatra</span></a>
+
+		</div>
+
+		<div class="memb ICT" style="margin-right:89px;">
+
+			<img src=""/><br/>
+
+			<a href="" ><span data-hover="Civil 2nd Year" style="background-color:#2ac56c;box-shadow: inset 0 3px #2ac56c;width:201px;">Amir Raza</span></a>
+
+		</div>
+
+	</nav>
+
+        <nav class="cl-effect-19" style="margin-left:5%;">
+
+			<div class="memb ICT" style="margin-right:60px;">
+
+			<img src=""/><br/>
+
+			<a href="alumni.htm" ><span data-hover="ECE 2nd Year">Gaurav Ranjan Sinha</span></a>
+
+		</div>
+
+		<div class="memb BS" style="margin-right:60px;">
+
+			<img src=""/><br/>
+
+			<a href="" ><span data-hover="ECE 2nd Year">Shreya Srivastava</span></a>
+
+		</div>
+
+		<div class="memb EN" style="margin-right:60px;">
+
+			<img src=""/><br/>
+
+			<a href="" ><span data-hover="Civil 2nd Year">Abhishek Agarwal</span></a>
+
+		</div>
+
+		<div class="memb ICT" style="margin-right:60px;">
+
+			<img src="team/abhinav.jpg"/><br/>
+
+			<a href="" ><span data-hover="Civil 2nd Year">Abhinav Srivastava</span></a>
+
+		</div>
+
+		</nav>
+
+		<nav class="cl-effect-2">
+
+			<div class="memb ICT">
+
+			<img src="team/gauba.jpg"/><br/>
+
+			<a href="alumni.htm" ><span data-hover="ECE 2nd Year">Himaanshu Gauba</span></a>
+
+		</div>
+
+		<div class="memb ICT">
+
+			<img src="team/ravish.jpg"/><br/>
+
+			<a href="" ><span data-hover="ECE 2nd Year">Ravish Yadav</span></a>
+
+		</div>
+
+		<div class="memb EN">
+
+			<img src="team/sumit.jpg"/><br/>
+
+			<a href="" ><span data-hover="Civil 2nd Year">Sumit Joshi</span></a>
+
+		</div>
+
+		<div class="memb IN">
+
+			<img src=""/><br/>
+
+			<a href="" ><span data-hover="EE 2nd Year">Madhav Pathak</span></a>
+
+		</div>
+
+		<div class="memb ICT">
+
+			<img src="team/supratim.jpg"/><br/>
+
+			<a href="" ><span data-hover="GT 2nd Year">Supratim Dey</span></a>
+
+		</div>
+
+		</nav>
+
+		<nav class="cl-effect-20" style="margin-left:5%;">
+
+			<div class="memb ICT" style="margin-right:60px;">
+
+			<img src="team/anant.jpg"/><br/>
+
+			<a href="alumni.htm" ><span data-hover="ECE 2nd Year">Anant Pathak</span></a>
+
+		</div>
+
+		<div class="memb IN" style="margin-right:60px;">
+
+			<img src=""/><br/>
+
+			<a href="" ><span data-hover="B.Arch. 3rd Year">Anshul Chauhan</span></a>
+
+		</div>
+
+		<div class="memb ICT" style="margin-right:60px;">
+
+			<img src="team/bhavnoor.jpg"/><br/>
+
+			<a href="" ><span data-hover="EE 2nd Year">Bhavnoor Singh</span></a>
+
+		</div>
+
+		<div class="memb EN" style="margin-right:60px;">
+
+			<img src=""/><br/>
+
+			<a href="" ><span data-hover="GT 2nd Year">Shipra Mathur</span></a>
+
+		</div>
+
+		</nav>
+
+		<!--<div id="fter">
+			<div id="cntct"><p>Contact Us: shareiitr11@gmail.com</p></div>
+		<a href="https://www.facebook.com/shareiitr" TARGET="_blank" style="float:right;margin-right:13px;"><img src="img/fb.png" title="link" alt="link" width="57px" border="0"/></a>
+
+		<a href="https://twitter.com/shareiitr" TARGET="_blank" style="float:right;margin-right:0px;"><img src="img/tw.png" title="link" alt="link" width="59px" border="0"/></a>
+
+	</div>-->
+		<footer>
+<address>Contact us: shareiitr11@gmail.com</address>
+<a href="https://www.facebook.com/shareiitr" TARGET="_blank" style="float:right;margin-right:13px;margin-top:-3.2%;"><img src="img/fb.png" title="link" alt="link" width="40px" border="0"/></a>
+
+		<a href="https://twitter.com/shareiitr" TARGET="_blank" style="float:right;margin-right:4%;margin-top:-3.2%;"><img src="img/tw.png" title="link" alt="link" width="42px" border="0"/></a>
+</footer>
+
+	<script>
+	$('.myWrapper').easyTicker({
+	// list of properties
+});
+	</script>
+
